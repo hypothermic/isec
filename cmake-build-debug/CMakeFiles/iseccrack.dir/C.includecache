@@ -11,6 +11,8 @@ stdio.h
 -
 unistd.h
 -
+string.h
+-
 time.h
 -
 stdarg.h
@@ -18,5 +20,7 @@ stdarg.h
 omp.h
 -
 gmp.h
+-
+malloc.h
 -
 
