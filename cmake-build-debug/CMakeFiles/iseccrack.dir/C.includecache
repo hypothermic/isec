@@ -15,4 +15,6 @@ time.h
 -
 stdarg.h
 -
+omp.h
+-
 
