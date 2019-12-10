@@ -1,4 +1,4 @@
-/home/xforce/Applications/CLion-2019.2.5/clion-2019.2.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xforce/CLionProjects/iseccrack
+/home/xforce/Downloads/CLion-2019.2.4/clion-2019.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xforce/CLionProjects/isec
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/xforce/CLionProjects/iseccrack/cmake-build-debug
+-- Build files have been written to: /home/xforce/CLionProjects/isec/cmake-build-debug

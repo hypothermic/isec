@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xforce/CLionProjects/iseccrack/main.c
+/home/xforce/CLionProjects/isec/main.c
 stdio.h
 -
 unistd.h
@@ -16,5 +16,7 @@ time.h
 stdarg.h
 -
 omp.h
+-
+gmp.h
 -
 
