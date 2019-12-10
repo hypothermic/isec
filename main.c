@@ -6,19 +6,26 @@
 const __uint16_t EXPECTED_RESULT = 777;
 const __uint64_t mod             = 9999999998987;
 const __uint8_t  root            = 5;
+const __uint32_t step            = 25000;
 
 __uint64_t lpow(__uint64_t uroot, __uint64_t exp);
 void flog(FILE* stream, const char* format, ...);
 
 int main() {
-    __uint64_t result  = 0;
-    __uint64_t current = 0;
+    __uint64_t result    = 0;
+    __uint64_t current   = 0;
+    __uint64_t last_step = time(NULL);
 
     flog(stdout, "Start met brute-force\n");
 
     while (result != EXPECTED_RESULT) {
         result = lpow(root, current) % mod;
+
         current++;
+        if (current % step == 0) {
+            flog(stdout, "%d stappen voltooid in de laatste %lu seconden (%d totaal)", step, time(NULL) - last_step, current);
+            last_step = time(NULL);
+        }
     }
 
     flog(stdout, "Key gevonden: %lu\n", current);

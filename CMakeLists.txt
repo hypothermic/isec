@@ -6,3 +6,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(iseccrack main.c)
 
 target_link_libraries(iseccrack m)
+
+find_package(OpenMP)
+target_link_libraries(iseccrack OpenMP::OpenMP_C)

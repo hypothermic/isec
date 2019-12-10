@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/iseccrack.dir/main.c.o  -o iseccrack -lm 
+/usr/bin/cc -g   CMakeFiles/iseccrack.dir/main.c.o  -o iseccrack -lm /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so -lpthread 

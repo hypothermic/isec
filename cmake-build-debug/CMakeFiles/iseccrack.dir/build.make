@@ -79,6 +79,8 @@ iseccrack_EXTERNAL_OBJECTS =
 
 iseccrack: CMakeFiles/iseccrack.dir/main.c.o
 iseccrack: CMakeFiles/iseccrack.dir/build.make
+iseccrack: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so
+iseccrack: /usr/lib/x86_64-linux-gnu/libpthread.so
 iseccrack: CMakeFiles/iseccrack.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xforce/CLionProjects/iseccrack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable iseccrack"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iseccrack.dir/link.txt --verbose=$(VERBOSE)
