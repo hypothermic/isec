@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/iseccrack.dir/main.c.o"
+  "CMakeFiles/iseccrack.dir/gpu.c.o"
   "iseccrack"
   "iseccrack.pdb"
 )

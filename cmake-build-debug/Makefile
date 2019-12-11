@@ -123,32 +123,32 @@ iseccrack/fast:
 	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/build
 .PHONY : iseccrack/fast
 
-main.o: main.c.o
+gpu.o: gpu.c.o
 
-.PHONY : main.o
+.PHONY : gpu.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/main.c.o
-.PHONY : main.c.o
+gpu.c.o:
+	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/gpu.c.o
+.PHONY : gpu.c.o
 
-main.i: main.c.i
+gpu.i: gpu.c.i
 
-.PHONY : main.i
+.PHONY : gpu.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/main.c.i
-.PHONY : main.c.i
+gpu.c.i:
+	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/gpu.c.i
+.PHONY : gpu.c.i
 
-main.s: main.c.s
+gpu.s: gpu.c.s
 
-.PHONY : main.s
+.PHONY : gpu.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/main.c.s
-.PHONY : main.c.s
+gpu.c.s:
+	$(MAKE) -f CMakeFiles/iseccrack.dir/build.make CMakeFiles/iseccrack.dir/gpu.c.s
+.PHONY : gpu.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... iseccrack"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... gpu.o"
+	@echo "... gpu.i"
+	@echo "... gpu.s"
 .PHONY : help
 
 

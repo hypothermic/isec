@@ -57,27 +57,27 @@ include CMakeFiles/iseccrack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/iseccrack.dir/flags.make
 
-CMakeFiles/iseccrack.dir/main.c.o: CMakeFiles/iseccrack.dir/flags.make
-CMakeFiles/iseccrack.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xforce/CLionProjects/isec/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/iseccrack.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iseccrack.dir/main.c.o   -c /home/xforce/CLionProjects/isec/main.c
+CMakeFiles/iseccrack.dir/gpu.c.o: CMakeFiles/iseccrack.dir/flags.make
+CMakeFiles/iseccrack.dir/gpu.c.o: ../gpu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xforce/CLionProjects/isec/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/iseccrack.dir/gpu.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/iseccrack.dir/gpu.c.o   -c /home/xforce/CLionProjects/isec/gpu.c
 
-CMakeFiles/iseccrack.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iseccrack.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xforce/CLionProjects/isec/main.c > CMakeFiles/iseccrack.dir/main.c.i
+CMakeFiles/iseccrack.dir/gpu.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iseccrack.dir/gpu.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/xforce/CLionProjects/isec/gpu.c > CMakeFiles/iseccrack.dir/gpu.c.i
 
-CMakeFiles/iseccrack.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iseccrack.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xforce/CLionProjects/isec/main.c -o CMakeFiles/iseccrack.dir/main.c.s
+CMakeFiles/iseccrack.dir/gpu.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iseccrack.dir/gpu.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/xforce/CLionProjects/isec/gpu.c -o CMakeFiles/iseccrack.dir/gpu.c.s
 
 # Object files for target iseccrack
 iseccrack_OBJECTS = \
-"CMakeFiles/iseccrack.dir/main.c.o"
+"CMakeFiles/iseccrack.dir/gpu.c.o"
 
 # External object files for target iseccrack
 iseccrack_EXTERNAL_OBJECTS =
 
-iseccrack: CMakeFiles/iseccrack.dir/main.c.o
+iseccrack: CMakeFiles/iseccrack.dir/gpu.c.o
 iseccrack: CMakeFiles/iseccrack.dir/build.make
 iseccrack: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so
 iseccrack: /usr/lib/x86_64-linux-gnu/libpthread.so

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/xforce/CLionProjects/isec/main.c
+/home/xforce/CLionProjects/isec/gpu.c
 stdio.h
 -
 unistd.h
@@ -22,5 +22,7 @@ omp.h
 gmp.h
 -
 malloc.h
+-
+stdint.h
 -
 

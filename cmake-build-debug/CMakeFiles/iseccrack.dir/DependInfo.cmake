@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/xforce/CLionProjects/isec/main.c" "/home/xforce/CLionProjects/isec/cmake-build-debug/CMakeFiles/iseccrack.dir/main.c.o"
+  "/home/xforce/CLionProjects/isec/gpu.c" "/home/xforce/CLionProjects/isec/cmake-build-debug/CMakeFiles/iseccrack.dir/gpu.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

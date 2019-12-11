@@ -4,10 +4,10 @@ project(iseccrack C)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}")
 
-add_executable(iseccrack main.c)
+find_package(OpenMP)
+
+add_executable(iseccrack gpu.c)
 
 target_link_libraries(iseccrack m)
-
-find_package(OpenMP)
 target_link_libraries(iseccrack OpenMP::OpenMP_C)
 target_link_libraries(iseccrack gmp)

@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xforce/CLionProjects/isec/main.c">
+		<Unit filename="/home/xforce/CLionProjects/isec/gpu.c">
 			<Option target="iseccrack"/>
 		</Unit>
 		<Unit filename="/home/xforce/CLionProjects/isec/CMakeLists.txt">

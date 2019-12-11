@@ -20,7 +20,7 @@ static void _logf(FILE* dest, const char* format, ...);
 int main(int argc, char* argv[]) {
     __uint8_t           lock          = 0,
                         local_lock    = 0;
-    __uint64_t          current       = 0,
+    __uint64_t          current       = 6200008,
                         local_current = 0;
     __uint64_t          last_step     = time(NULL);
     const time_t        start_time    = last_step;
